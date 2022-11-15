@@ -72,6 +72,7 @@ C:\Program Files\WindowsApps\XXXX
 此目录权限复杂，改动十分不友好，复制某一个应用所在的文件目录到另一台电脑上，然后点击.exe运行，是不行的，总是提示缺少某些.dll文件，那么如何对UMP应用打包成安装呢？
 
 使用WSAppBak工具，本目录提供了其压缩包，使用方式很简单，进入其目录，双击运行WSAppBak.exe：
+（直接看目录下的How to use.txt文件的说明也行）
 
 ![](Images/WSAppBak_1.png)
 
@@ -103,4 +104,5 @@ C:\Program Files\WindowsApps\XXXX
 
 [轻松提取win10上的uwp应用为离线安装包！【软件专家原创】](https://www.bilibili.com/video/BV1UB4y1N7pz/?vd_source=e6ad3ca74f59d33bf575de5aa7ceb52e)
 
-[WSAppBak](https://github.com/Wapitiii/WSAppBak)
+[WSAppBak](https://github.com/Wapitiii/WSAppBak)（'Windows Store App Backup' by Kiran Murmu）
+
