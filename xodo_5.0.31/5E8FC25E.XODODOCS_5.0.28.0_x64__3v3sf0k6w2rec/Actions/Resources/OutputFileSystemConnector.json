@@ -1,0 +1,13 @@
+﻿{
+  "id": "f6b183d1-0c25-4716-8b44-61ef598ef30e",
+  "profiles": [
+    {
+      "location": "",
+      "overwriteMethod": "AlterFilename",
+      "outputType": "Output",
+      "fileActionType": "None",
+      "profile": "Default",
+      "default": true
+    }
+  ]
+}

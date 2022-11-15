@@ -1,0 +1,63 @@
+﻿{
+  "groups": [
+    {
+      "id": "OpenedDocs",
+      "title": "DocumentPage_OpenedDocs_NavTitle",
+      "imagePath": "",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "DocumentPage_OpenedDocs_Desc",
+      "margin": "-4,-2,-2,-7",
+      "canBeHidden": true
+    },
+    {
+      "id": "RecentPage",
+      "title": "DocumentsPage_RecentItems_NavTitle",
+      "imagePath": "",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "DocumentsPage_RecentItems_Desc",
+      "margin": "-4,-2,-2,-7"
+    },
+    {
+      "id": "FoldersPage",
+      "title": "DocumentsPage_FoldersPage_Title",
+      "imagePath": "",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "DocumentsPage_FoldersPage_Desc",
+      "margin": "-4,-2,-2,-7"
+    },
+    {
+      "id": "Browse",
+      "title": "DocumentsPage_BrowseButton_NavTitle",
+      "imagePath": "l",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "DocumentsPage_BrowseButton_Desc",
+      "margin": "-4,-2,-2,-7"
+    },
+    {
+      "id": "CreateNew",
+      "title": "DocumentsPage_CreateDocument_NavTitle",
+      "imagePath": "Ż",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "DocumentsPage_CreateDocument_Desc",
+      "margin": "-4,-2,-2,-7"
+    },
+    {
+      "id": "help",
+      "title": "DocumentsPage_Help_NavTitle",
+      "imagePath": "",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "DocumentsPage_Help_Desc",
+      "margin": "-4,-2,-2,-7"
+    }
+  ],
+  "footers": [
+    {
+      "id": "Settings",
+      "title": "Settings_Options_NavTitle",
+      "imagePath": "",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "Settings_Options_Desc",
+      "margin": "-4,-2,-2,-7"
+    }
+  ]
+}

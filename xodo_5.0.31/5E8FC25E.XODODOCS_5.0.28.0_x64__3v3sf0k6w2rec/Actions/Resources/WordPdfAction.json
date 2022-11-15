@@ -1,0 +1,11 @@
+﻿{
+  "id": "3f0a4e84-5a69-4a98-b0a7-26f8d93b51df",
+  "profiles": [
+    {
+      "profile": "Default",
+      "description": "Default profile used in Basic Task.",
+      "profileType": "Global",
+      "default": true
+    }
+  ]
+}

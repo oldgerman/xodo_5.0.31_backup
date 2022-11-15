@@ -1,0 +1,13 @@
+﻿{
+  "id": "02093e23-c8bd-4e2a-b951-c889c2eb84b3",
+  "profiles": [
+    {
+      "pageSeparator": "NewLine",
+      "removeHyphens": true,
+      "profile": "Default",
+      "description": "Default profile used in Basic Task.",
+      "profileType": "Global",
+      "default": true
+    }
+  ]
+}

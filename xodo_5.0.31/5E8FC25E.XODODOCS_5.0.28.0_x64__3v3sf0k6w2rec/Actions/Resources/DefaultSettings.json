@@ -1,0 +1,9 @@
+﻿{
+  "id": "edea7a8e-b54b-45ad-baf9-3fa083164fd8",
+  "overwriteMethod": "Always",
+  "defaultOutput": {
+    "name": "OutputFileSystemConnector",
+    "profile": "Default"
+  },
+  "language": "en"
+}

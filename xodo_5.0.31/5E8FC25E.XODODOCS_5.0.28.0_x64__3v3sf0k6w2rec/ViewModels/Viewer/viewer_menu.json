@@ -1,0 +1,184 @@
+﻿{
+  "menuItems": [
+    {
+      "text": "SelectPage_ExportPdf_NavTitle",
+      "isSubMenuItem": true,
+      "iconType": "Bitmap",
+      "style": "SubscriptionMenuFlyoutSubItemStyle",
+      "imageUri": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-convert.png",
+      "subMenuItems": [
+        {
+          "text": "SelectPage_PdfToBmp_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SaveCopyAsCommand",
+          "commandParameter": "BMP",
+          "style": "SubscriptionMenuFlyoutItemStyle",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-jpg.png"
+        },
+        {
+          "text": "SelectPage_PdfToJpg_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SaveCopyAsCommand",
+          "commandParameter": "JPG",
+          "style": "SubscriptionMenuFlyoutItemStyle",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-jpg.png"
+        },
+        {
+          "text": "SelectPage_PdfToPng_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SaveCopyAsCommand",
+          "commandParameter": "PNG",
+          "style": "SubscriptionMenuFlyoutItemStyle",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-jpg.png"
+        },
+        {
+          "text": "SelectPage_PdfToTiff_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SaveCopyAsCommand",
+          "commandParameter": "TIFF",
+          "style": "SubscriptionMenuFlyoutItemStyle",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-jpg.png"
+        },
+        {
+          "text": "SelectPage_PdfToWord_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SaveCopyAsCommand",
+          "commandParameter": "WORD",
+          "style": "SubscriptionMenuFlyoutItemStyle",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-doc.png"
+        },
+        {
+          "text": "SelectPage_PdfToHtml_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SaveCopyAsCommand",
+          "commandParameter": "HTML",
+          "style": "SubscriptionMenuFlyoutItemStyle",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-html.png"
+        },
+        {
+          "text": "SelectPage_PdfToPdfa_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SaveCopyAsCommand",
+          "commandParameter": "PDFA",
+          "style": "SubscriptionMenuFlyoutItemStyle",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-pdfa.png"
+        }
+      ]
+    },
+    {
+      "text": "SelectPage_Edit_NavTitle",
+      "isSubMenuItem": true,
+      "iconType": "Bitmap",
+      "imageUri": "ms-appx:///Actions/Resources/images/icon-disp-edit.png",
+      "subMenuItems": [
+        {
+          "text": "SelectPage_CropPdf_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SavePermCroppedCopyCommand",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///pdftron.PDF.Tools/Resources/Images/icon-disp-crop-pdf.png"
+        },
+        {
+          "text": "SelectPage_CompressPdf_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SaveReducedFileSizeCopyCommand",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///pdftron.PDF.Tools/Resources/Images/icon-disp-compress.png"
+        },
+        {
+          "text": "SelectPage_LinearizePdf_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SaveCopyAsCommand",
+          "commandParameter": "Linearize",
+          "style": "SubscriptionMenuFlyoutItemStyle",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///Actions/Resources/images/icon-disp-linearize.png"
+        },
+        {
+          "text": "SelectPage_FlattenAnnots_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SaveAndFlattenCommand",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///pdftron.PDF.Tools/Resources/Images/icon-disp-flatten.png"
+        },
+        {
+          "text": "SelectPage_RemoveAnnots_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SaveCopyAsCommand",
+          "commandParameter": "RemoveAnnotation",
+          "style": "SubscriptionMenuFlyoutItemStyle",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///Actions/Resources/images/icon-disp-remove-annot.png"
+        }
+      ]
+    },
+    {
+      "text": "SelectPage_Security_NavTitle",
+      "isSubMenuItem": true,
+      "iconType": "Bitmap",
+      "imageUri": "ms-appx:///pdftron.PDF.Tools/Resources/Images/icon-disp-encrypt.png",
+      "subMenuItems": [
+        {
+          "text": "SelectPage_EncryptPdf_NavTitle",
+          "isTextBinding": true,
+          "textBindingPath": "SaveAPasswordCopyText",
+          "isCommandBinding": true,
+          "commandBindingPath": "SavePasswordCopyCommand",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///pdftron.PDF.Tools/Resources/Images/icon-disp-encrypt.png"
+        },
+        {
+          "text": "SelectPage_DecryptPdf_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SaveDecryptedCopyCommand",
+          "style": "SubscriptionMenuFlyoutItemStyle",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///Actions/Resources/images/icon-disp-decrypt.png"
+        }
+      ]
+    },
+    {
+      "text": "SelectPage_Stamp_NavTitle",
+      "isSubMenuItem": true,
+      "iconType": "Bitmap",
+      "style": "SubscriptionMenuFlyoutSubItemStyle",
+      "imageUri": "ms-appx:///Actions/Resources/Images/Stamp/icon-disp-stamp.png",
+      "subMenuItems": [
+        {
+          "text": "SelectPage_StampImage_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SaveCopyAsCommand",
+          "commandParameter": "ImageStamp",
+          "style": "SubscriptionMenuFlyoutItemStyle",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///Actions/Resources/Images/Stamp/icon-disp-stamp-image.png"
+        },
+        {
+          "text": "SelectPage_StampFile_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SaveCopyAsCommand",
+          "commandParameter": "PageStamp",
+          "style": "SubscriptionMenuFlyoutItemStyle",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///Actions/Resources/Images/Stamp/icon-disp-stamp-page.png"
+        },
+        {
+          "text": "SelectPage_StampText_NavTitle",
+          "isCommandBinding": true,
+          "commandBindingPath": "SaveCopyAsCommand",
+          "commandParameter": "TextStamp",
+          "style": "SubscriptionMenuFlyoutItemStyle",
+          "iconType": "Bitmap",
+          "imageUri": "ms-appx:///Actions/Resources/Images/Stamp/icon-disp-stamp-text.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+﻿{
+  "id": "28db6324-935f-40b9-b3de-7db0e8681894",
+  "profiles": [
+    {
+      "linearized": false,
+      "colorImageSettings": {
+        "compression": "Jpeg",
+        "quality": 5,
+        "downsampleImages": true,
+        "triggerDpi": 225.0,
+        "targetDpi": 150.0
+      },
+      "grayImageSettings": {
+        "compression": "Jpeg",
+        "quality": 5,
+        "downsampleImages": true,
+        "triggerDpi": 225.0,
+        "targetDpi": 150.0
+      },
+      "monoImageSettingsS": {
+        "compression": "Jbig2",
+        "downsampleImages": true,
+        "triggerDpi": 225.0,
+        "targetDpi": 150.0
+      },
+      "forceRecompression": false,
+      "compressionLevel": "Balanced",
+      "qualityLevel": "High",
+      "profile": "Default",
+      "description": "Default profile used in Basic Task.",
+      "profileType": "Global",
+      "default": true
+    }
+  ]
+}

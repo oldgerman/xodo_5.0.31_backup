@@ -1,0 +1,26 @@
+﻿{
+  "id": "ca7a3cc2-8c63-4ca8-b53f-b3feaf19763c",
+  "profiles": [
+    {
+      "antiAliasing": true,
+      "pageColor": "#FFFFFF",
+      "dpi": 92.0,
+      "setDpi": true,
+      "drawAnnotations": true,
+      "gamma": 1.0,
+      "width": 816,
+      "height": 1056,
+      "smoothing": true,
+      "highQualitySmoothing": true,
+      "pathHinting": true,
+      "rotatePage": "e_0",
+      "strokeAdjust": true,
+      "imageColorType": 0,
+      "multipage": true,
+      "profile": "Default",
+      "description": "Default profile used in Basic Task.",
+      "profileType": "Global",
+      "default": true
+    }
+  ]
+}

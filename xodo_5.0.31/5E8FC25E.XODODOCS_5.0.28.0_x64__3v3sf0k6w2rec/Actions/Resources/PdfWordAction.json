@@ -1,0 +1,30 @@
+﻿{
+  "id": "fa264263-02bd-4bfb-a1f6-b06a8b577f3d",
+  "profiles": [
+    {
+      "conversionMethod": "Default",
+      "adjustFontNames": true,
+      "connectHyphens": true,
+      "convertBookmarks": "PageStart",
+      "documentType": "SingleColumn",
+      "extractHyperlinks": true,
+      "extractImages": true,
+      "extractText": true,
+      "fileConversionTimeout": 300000,
+      "imageResolution": 192,
+      "jpegQuality": 50,
+      "matchPdfLineBreaks": true,
+      "mergeParagraphs": true,
+      "mergeText": true,
+      "ocrOption": "TextImage",
+      "outputFormat": "Docx",
+      "removeHiddenText": true,
+      "shrinkFonts": true,
+      "profile": "Default",
+      "description": "Default profile used in Basic Task.",
+      "profileType": "Global",
+      "exportMarkupAnnotComments": false,
+      "default": true
+    }
+  ]
+}

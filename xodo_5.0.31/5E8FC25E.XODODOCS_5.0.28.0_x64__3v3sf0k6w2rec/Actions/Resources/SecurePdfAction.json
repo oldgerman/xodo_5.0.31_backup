@@ -1,0 +1,22 @@
+﻿{
+  "id": "3034ada0-dd5f-4d3d-be31-d70691c3ffff",
+  "profiles": [
+    {
+      "userPassword": "",
+      "ownerPassword": "",
+      "algorithm": "AES_256",
+      "accessSupport": true,
+      "print": true,
+      "modify": true,
+      "extract": true,
+      "annotations": true,
+      "fillForms": true,
+      "assemble": true,
+      "printHigh": true,
+      "profile": "Default",
+      "description": "Default profile used in Basic Task.",
+      "profileType": "Global",
+      "default": true
+    }
+  ]
+}

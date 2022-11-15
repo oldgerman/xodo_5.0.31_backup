@@ -1,0 +1,12 @@
+﻿{
+  "id": "28c6bcfa-5fee-4fff-9dbd-d6b9d1e25538",
+  "profiles": [
+    {
+      "compliance": "Level2B",
+      "profile": "Default",
+      "description": "Default profile used in Basic Task.",
+      "profileType": "Global",
+      "default": true
+    }
+  ]
+}

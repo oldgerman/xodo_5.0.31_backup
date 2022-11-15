@@ -1,0 +1,28 @@
+                'Windows Store App Backup' by Kiran Murmu
+================================================================================
+
+1] Enter the App path:
+   ex. C:\Program Files\WindowsApps\Disney.TempleRunOz_1.6.0.25_x86__6rarf9sa4v8jt
+   Copy the 'Windows App' path which you want to backup, click on the left side 
+   console icon and select "Edit" then "Paste" and hit enter.
+
+2] Enter the Output path:
+   ex. C:\Users\User Name\Desktop\New folder
+   Copy the 'Output' path where you want to save the backup, click on the left side 
+   console icon and select "Edit" then "Paste" and hit enter. Backup process will start
+   immediately... this may take some time to make package.
+
+3] A Window will pop up 'Create Private Key Password'
+   Enter your password and click 'OK' then follow steps, or click 'None' button to skip.
+   This process may take some minutes after that backup App is ready to use.
+
+4] Use 'WSAppPkgIns.exe' file to install the backup App. Copy 'WSAppPkgIns.exe' from the
+   'WSAppBak' foler and paste to 'C:\Windows\System32'. Now open the backup App (.appx)
+   file using the 'WSAppPkgIns.exe', and make it default 'Opens with' program for (.appx)
+   file.
+
+*You must have installed Windows Store App license of the App to run the backup App.
+*You must have installed 'Dependencies Package' to install the App. (You can backup
+ dependencies package too)
+*You must not delete any file from the 'WSAppBak' folder, or program may not works.
+

@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap mp rescap build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <Identity Name="5E8FC25E.XODODOCS" Publisher="CN=728D3E49-73AE-4BBD-BC7C-5885A138F109" Version="5.0.28.0" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="8dcee3d6-6043-4b22-b1ee-9fe7f90b4b63" PhonePublisherId="561ffd6f-03c0-453d-80ec-29b1d9e837b6" />
+  <Properties>
+    <DisplayName>PDF Reader - View, Edit, Annotate</DisplayName>
+    <PublisherDisplayName>Xodo Technologies Inc.</PublisherDisplayName>
+    <Logo>Assets\XodoStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.18362.0" />
+    <PackageDependency Name="Microsoft.UI.Xaml.2.7" MinVersion="7.2109.13004.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.NET.Native.Framework.2.2" MinVersion="2.2.29512.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.NET.Native.Runtime.2.2" MinVersion="2.2.28604.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.30035.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US" />
+    <Resource Language="FR-FR" />
+    <Resource Language="PT-BR" />
+    <Resource Language="ZH-CN" />
+    <Resource Language="JA-JP" />
+    <Resource Language="KO-KR" />
+    <Resource Language="DE-DE" />
+    <Resource Language="ES-ES" />
+    <Resource Language="IT-IT" />
+    <Resource uap:Scale="100" />
+    <Resource uap:Scale="200" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="Xodo.exe" EntryPoint="Xodo.App">
+      <uap:VisualElements DisplayName="PDF Reader by Xodo" Square150x150Logo="Assets\XodoMedTile.png" Square44x44Logo="Assets\XodoAppList.png" Description="Xodo_Windows10" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\XodoWideTile.png" ShortName="Xodo" Square71x71Logo="Assets/XodoSmallTile.png" Square310x310Logo="Assets\XodoLargeTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\XodoSplashScreen.png" BackgroundColor="#343A40" />
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name=".pdf">
+            <uap:Logo>Assets/Icon_pdf.png</uap:Logo>
+            <uap:SupportedFileTypes>
+              <uap:FileType>.pdf</uap:FileType>
+            </uap:SupportedFileTypes>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name=".xlsx">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.xlsx</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>assets\Icon_xlsx.png</uap:Logo>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name=".xps">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.xps</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>assets\Icon_xps.png</uap:Logo>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name=".pptx">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.pptx</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>assets\Icon_pptx.png</uap:Logo>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name=".doc">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.doc</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>assets\Icon_doc.png</uap:Logo>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name=".docx">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.docx</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>assets\Icon_docx.png</uap:Logo>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name=".oxps">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.oxps</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>assets\Icon_oxps.png</uap:Logo>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name=".ppt">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.ppt</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>assets\Icon_ppt.png</uap:Logo>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name=".xls">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.xls</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:Logo>assets\Icon_xls.png</uap:Logo>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <rescap:Capability Name="confirmAppClose" />
+    <DeviceCapability Name="microphone" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Xodo.dll</Path>
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.GAServiceManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.PlatformInfoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.TransactionItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.Payload" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.Transaction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.Dimensions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.Tracker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.Core.TrackerManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.EasyTracker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.PlatformInfoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.AnalyticsEngine" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.TransactionBuilder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.EasyTrackerConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.ProductReceipt" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GoogleAnalytics.AppReceipt" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.UI.Lottie.LottieVisualSource" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>pdftron.dll</Path>
+        <ActivatableClass ActivatableClassId="pdftron.FDF.FDFField" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.FDF.XFDFExportOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.FDF.FDFDoc" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.SDF.NumberTree" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.SDF.SecurityHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.SDF.NameTree" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.SDF.ObjSet" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.SDF.SDFDoc" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Stamper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.ViewChangeCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.PatternColor" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Redactor" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.OptimizerTextSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.PDFDocGenerator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.TextDiffOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Function" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.PageSet" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.TextExtractor" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.XPSOutputOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.OptimizerMonoImageSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.OfficeToPDFOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.OptionsHelpers" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.PDFDraw" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.DiffOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.RedactorRedaction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Shading" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.WebFontDownloader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.RedactorAppearance" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.OCG.OCMD" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.OCG.Group" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.OCG.Context" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.OCG.Config" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Font" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.ReflowProcessor" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.PageLabel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Date" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Page" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.ElementReader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.RefreshOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.PathData" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.TextSearch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.WordToPDFOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Ink" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Highlight" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.RubberStamp" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Square" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Circle" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.PushButtonWidget" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Screen" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.StrikeOut" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.CheckBoxWidget" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Text" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.FreeText" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Underline" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.FileAttachment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.PolyLine" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Link" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Squiggly" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.TextWidget" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Polygon" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.ListBoxWidget" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Watermark" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Markup" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Line" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Sound" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Widget" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Redaction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.RadioButtonWidget" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Popup" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.TextMarkup" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Caret" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.ComboBoxWidget" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.RadioButtonGroup" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.SignatureWidget" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annots.Movie" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Field" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.ColorPt" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Annot" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.TimestampingConfiguration" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.PDFViewCtrl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Bookmark" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.TextExtractorWord" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.PDFRasterizer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Action" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.ColorSpace" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.RectCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.TextExtractorStyle" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.BitmapInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.FileSpec" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.GState" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Analytics.AnalyticsHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.ContentReplacer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.KeyStrokeEventData" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Convert" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.SVGOutputOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.OCRModule" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.ElementBuilder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Highlights" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.ElementWriter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.PDFNetInternalTools" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.TextExtractorLine" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.VerificationOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Point" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Destination" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.HTTPRequestOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.PDFA.PDFACompliance" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.PDFA.PDFAComplianceErrorCodeReference" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.OptimizerOptimizerSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.DigitalSignatureField" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Image" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.DocumentPreviewCache" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.OptimizerImageSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.ActionParameter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.PDFPrintManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.PDFDoc" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.QuadPoint" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.XODOutputOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Optimizer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Separation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.Rect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.ConversionMonitor" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDF.AnnotBorderStyle" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Crypto.ObjectIdentifier" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.PDFNet" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Filters.OutputStreamFilter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Filters.FilterWriter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Filters.MappedFile" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Filters.FilterReader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Filters.RandomAccessStreamFilter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Filters.InputStreamFilter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Filters.MemoryFilter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Common.Matrix2D" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Common.Int32Ref" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Common.DoubleArrayRef" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Common.RecentlyUsedCache" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Common.DoubleRef" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Common.IntArrayRef" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Common.StringRef" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Common.ByteArrayRef" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="pdftron.Common.PDFNetException" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Graphics.Canvas.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasRenderTarget" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Printing.CanvasPrintDocument" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasSpriteBatch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasGradientMesh" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasGeometry" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasPathBuilder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasSolidColorBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasImageBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasDevice" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.CanvasCreateResourcesEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Composition.CanvasComposition" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasImageSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasVirtualImageSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasDrawEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasVirtualControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasSwapChainPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedUpdateEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedDrawEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasVirtualBitmap" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DpiCompensationEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.EffectTransferTable3D" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TableTransfer3DEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.BorderEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.CropEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.GrayscaleEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.GammaTransferEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SaturationEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ChromaKeyEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PosterizeEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HueToRgbEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.BrightnessEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.AlphaMaskEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.Transform3DEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.OpacityEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TableTransferEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DistantSpecularEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.LuminanceToAlphaEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DisplacementMapEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ExposureEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.CrossFadeEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ScaleEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.MorphologyEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.BlendEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PixelShaderEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ArithmeticCompositeEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HueRotationEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PremultiplyEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorManagementEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TemperatureAndTintEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorSourceEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.EmbossEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.GaussianBlurEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorMatrixEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.VignetteEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DistantDiffuseEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TintEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.StraightenEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.AtlasEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PointDiffuseEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SpotDiffuseEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ConvolveMatrixEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DirectionalBlurEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SharpenEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.LinearTransferEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SepiaEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.EdgeDetectionEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TurbulenceEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HighlightsAndShadowsEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.RgbToHueEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.CompositeEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SpotSpecularEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.OpacityMetadataEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ShadowEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.InvertEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorManagementProfile" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DiscreteTransferEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.Transform2DEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ContrastEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PointSpecularEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TileEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.UnPremultiplyEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasCommandList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasFontSet" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextRenderingParameters" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTypography" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextFormat" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextAnalyzer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasNumberSubstitution" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasSwapChain" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasBitmap" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
+    <build:Item Name="VisualStudio" Version="16.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Professional 2019" />
+    <build:Item Name="OperatingSystem" Version="10.0.19041.1 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.31910.33" />
+    <build:Item Name="ProjectGUID" Value="{D6F9B55D-EC0A-4F17-B00B-243B57FC9849}" />
+    <build:Item Name="ilc.exe" Version="2.2.29512.01 built by: PROJECTNREL" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="10.0.18362.1" />
+    <build:Item Name="OptimizingToolset" Value="ilc.exe" />
+    <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True" />
+    <build:Item Name="DisableStackTraceMetadata" Value="false" />
+    <build:Item Name="DisableExceptionMessages" Value="false" />
+    <build:Item Name="ShortcutGenericAnalysis" Value="false" />
+    <build:Item Name="GeneratePGD" Value="false" />
+    <build:Item Name="ConsumePGD" Value="false" />
+    <build:Item Name="SingleThreadNUTC" Value="false" />
+    <build:Item Name="Use64BitCompiler" Value="false" />
+    <build:Item Name="OptimizeForSize" Value="false" />
+    <build:Item Name="AlignMethodsAtMinimalBoundaries" Value="false" />
+    <build:Item Name="LargeAddressAware" Value="false" />
+    <build:Item Name="NoLinkerSymbols" Value="false" />
+    <build:Item Name="WindowsMobile" Version="10.0.18362.0" />
+    <build:Item Name="MakePri.exe" Version="10.0.18362.1 (WinBuild.160101.0800)" />
+  </build:Metadata>
+</Package>

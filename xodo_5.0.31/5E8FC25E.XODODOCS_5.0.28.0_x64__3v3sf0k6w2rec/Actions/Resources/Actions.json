@@ -1,0 +1,859 @@
+﻿{
+  "actions": [
+    {
+      "alias": "Remove Annotations",
+      "id": "9e93788a-232b-4d9d-8d81-8ae2089a8114",
+      "name": "RemoveAnnotationAction",
+      "plugin": {
+        "name": "RemoveAnnotationActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Annotate",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Remove Links",
+      "id": "8c7c9888-e5ab-40c0-b33a-64f8312656af",
+      "name": "RemoveLinksAction",
+      "plugin": {
+        "name": "RemoveLinksActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Annotate",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Flatten Annotations",
+      "id": "53e16570-80bc-4b73-b253-81a0c37b72d0",
+      "name": "FlattenAnnotationAction",
+      "plugin": {
+        "name": "FlattenAnnotationActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Annotate",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Word To PDF",
+      "id": "9df704d0-6da7-4589-bf85-a9ab76edf6a6",
+      "name": "WordPdfAction",
+      "plugin": {
+        "name": "WordPdfActionStub"
+      },
+      "settings": {
+        "actionType": "ToPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".doc",
+          ".docx"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "PDF To Word",
+      "id": "fa264263-02bd-4bfb-a1f6-b06a8b577f3d",
+      "name": "PdfWordAction",
+      "plugin": {
+        "name": "PdfWordActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "FromPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".rtf",
+          ".doc",
+          ".docx"
+        ],
+        "maxFileSize": 26214400
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Excel To PDF",
+      "id": "ec15c0d5-0020-47ae-9abe-a0c989474bdd",
+      "name": "ExcelPdfAction",
+      "plugin": {
+        "name": "ExcelPdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "ToPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".xls",
+          ".xlsx"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "PowerPoint To PDF",
+      "id": "d285c313-22dd-436e-81b1-1d9226d38242",
+      "name": "PowerPointPdfAction",
+      "plugin": {
+        "name": "PowerPointPdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "ToPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".ppt",
+          ".pptx"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "JPG To PDF",
+      "id": "6eb6d66e-7fae-4231-81ac-57970d65f0db",
+      "name": "JpegPdfAction",
+      "plugin": {
+        "name": "JpegPdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "ToPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".jpg",
+          ".jpeg"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "PNG To PDF",
+      "id": "807a100b-898f-43eb-a1df-1eb5494ad36f",
+      "name": "PngPdfAction",
+      "plugin": {
+        "name": "PngPdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "ToPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".png"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "XPS To PDF",
+      "id": "adcc8e4b-8baf-4c00-aa47-d3f51bf76ed7",
+      "name": "XpsPdfAction",
+      "plugin": {
+        "name": "XpsPdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "ToPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".xps"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Text To PDF",
+      "id": "38ea6f48-80bd-4bfa-a2bc-f21024fdac2e",
+      "name": "TextPdfAction",
+      "plugin": {
+        "name": "TextPdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "ToPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".txt"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "PDF To Bitmap",
+      "id": "a4372531-289a-49b8-96d2-df6825e182b7",
+      "name": "PdfBitmapAction",
+      "plugin": {
+        "name": "PdfBitmapActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "FromPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".bmp"
+        ]
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "PDF to JPG",
+      "id": "eaea412e-7308-41c2-9eb4-5611d7fafa82",
+      "name": "PdfJpegAction",
+      "plugin": {
+        "name": "PdfJpegActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "FromPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".jpg"
+        ]
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "PDF to PNG",
+      "id": "b33ef7aa-58ec-47de-b9ec-99b0fc9daf72",
+      "name": "PdfPngAction",
+      "plugin": {
+        "name": "PdfPngActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "FromPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".png"
+        ]
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "PDF to HTML",
+      "id": "4c8de760-ea88-4701-aec7-595c6fe4760e",
+      "name": "PdfHtmlAction",
+      "plugin": {
+        "name": "PdfHtmlActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "FromPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".htm",
+          ".html"
+        ],
+        "maxFileSize": 26214400
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Compress PDF",
+      "id": "28db6324-935f-40b9-b3de-7db0e8681894",
+      "name": "CompressPdfAction",
+      "plugin": {
+        "name": "CompressPdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Optimize",
+      "stepType": "Action"
+    },
+    {
+      "alias": "PDF to TIFF",
+      "id": "ca7a3cc2-8c63-4ca8-b53f-b3feaf19763c",
+      "name": "PdfTiffAction",
+      "plugin": {
+        "name": "PdfTiffActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "FromPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".tif",
+          ".tiff"
+        ]
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "BMP to PDF",
+      "id": "95fa8838-9853-441e-a81f-1450d4db7a2f",
+      "name": "BitmapPdfAction",
+      "plugin": {
+        "name": "BitmapPdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "ToPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".bmp"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "TIFF to PDF",
+      "id": "6755d461-c05b-4f9e-bf78-57a8285b4c12",
+      "name": "TiffPdfAction",
+      "plugin": {
+        "name": "TiffPdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "ToPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".tif",
+          ".tiff"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Encrypt PDF",
+      "id": "3034ada0-dd5f-4d3d-be31-d70691c3ffff",
+      "name": "SecurePdfAction",
+      "plugin": {
+        "name": "SecurePdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Secure",
+      "stepType": "Action"
+    },
+    {
+      "alias": "PDF to PDF/A",
+      "id": "28c6bcfa-5fee-4fff-9dbd-d6b9d1e25538",
+      "name": "PdfPdfaAction",
+      "plugin": {
+        "name": "PdfPdfaActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Decrypt PDF",
+      "id": "e460123b-1f11-4a8b-b685-118d794b21bb",
+      "name": "UnlockPdfAction",
+      "plugin": {
+        "name": "UnlockPdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Secure",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Extract Images",
+      "id": "6a1273ff-7b0d-4518-9b23-8a10c32f5662",
+      "name": "ExtractImageAction",
+      "plugin": {
+        "name": "ExtractImageActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "FromPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".png",
+          ".tif"
+        ]
+      },
+      "parent": "Extract",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Merge PDF Pages",
+      "id": "eca6c1f6-80a6-4f68-9a58-a53ec5f106c9",
+      "name": "MergePdfPageAction",
+      "plugin": {
+        "name": "MergePdfPageActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "multipleInputs": true,
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Pages",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Organize PDF Pages",
+      "id": "bdb1e556-d5ff-40de-8afb-9f34c6119695",
+      "name": "OrganizePdfPageAction",
+      "plugin": {
+        "name": "OrganizePdfPageActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Pages",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Redact PDF Text",
+      "id": "e1129fc4-a9d6-44d6-8a2f-e197d210650f",
+      "name": "RedactPdfTextAction",
+      "plugin": {
+        "name": "RedactPdfTextActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Redact",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Redact PDF Image",
+      "id": "aa127f95-9b52-4cf6-b6af-55403109b360",
+      "name": "RedactPdfImageAction",
+      "plugin": {
+        "name": "RedactPdfImageActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Redact",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Stamp Image PDF",
+      "id": "ccef8d62-8c72-4402-aba7-063aa639e5fc",
+      "name": "ImageStampPdfAction",
+      "plugin": {
+        "name": "ImageStampPdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Stamp",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Text Stamp PDF",
+      "id": "d4055ca3-719c-43d0-b58f-274c1e413372",
+      "name": "TextStampPdfAction",
+      "plugin": {
+        "name": "TextStampPdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Stamp",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Extract Text",
+      "id": "02093e23-c8bd-4e2a-b951-c889c2eb84b3",
+      "name": "ExtractTextAction",
+      "plugin": {
+        "name": "ExtractTextActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "FromPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".txt"
+        ]
+      },
+      "parent": "Extract",
+      "stepType": "Action"
+    },
+    {
+      "alias": "File Stamp PDF",
+      "id": "ccef8d62-8c72-4402-aba7-063aa639e5fc",
+      "name": "FileStampPdfAction",
+      "plugin": {
+        "name": "FileStampPdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Stamp",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Bates Stamp PDF",
+      "id": "50104001-f241-483b-95d0-9770a5df1e82",
+      "name": "BatesStampPdfAction",
+      "plugin": {
+        "name": "BatesStampPdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ],
+        "multipleInputs": true
+      },
+      "parent": "Stamp",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Linearize PDF",
+      "id": "dad46d8b-29bf-4a57-8447-3150dae92ba3",
+      "name": "LinearizePdfAction",
+      "plugin": {
+        "name": "LinearizePdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ],
+        "multipleInputs": false
+      },
+      "parent": "Optimize",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Split PDF",
+      "id": "e68eaabe-ecee-44a7-9482-17263ac417de",
+      "name": "SplitPdfPageAction",
+      "plugin": {
+        "name": "SplitPdfPageActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ],
+        "multipleInputs": true
+      },
+      "parent": "Pages",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Delete PDF Pages",
+      "id": "15e67dd1-d278-468d-b82d-38d4736424dd",
+      "name": "DeletePdfPageAction",
+      "plugin": {
+        "name": "DeletePdfPageActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ],
+        "multipleInputs": true
+      },
+      "parent": "Pages",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Crop PDF",
+      "id": "87a78f76-b1c1-4473-9d9c-4ad430f9fe07",
+      "name": "CropPdfPageAction",
+      "plugin": {
+        "name": "CropPdfPageActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ],
+        "multipleInputs": true
+      },
+      "parent": "Pages",
+      "stepType": "Action"
+    },
+    {
+      "alias": "HTML to PDF",
+      "id": "54e02107-d055-4b4b-8eae-f32b7e5f5603",
+      "name": "HtmlPdfAction",
+      "plugin": {
+        "name": "HtmlPdfActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "ToPdf"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".html",
+          ".htm"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ],
+        "maxFileSize": 26214400
+      },
+      "parent": "Convert",
+      "stepType": "Action"
+    },
+    {
+      "alias": "Remove Links",
+      "id": "9e93788a-232b-4d9d-8d81-8ae2089a8115",
+      "name": "RemoveLinksAction",
+      "plugin": {
+        "name": "RemoveLinksActionStub"
+      },
+      "priority": 0,
+      "settings": {
+        "actionType": "Both"
+      },
+      "validation": {
+        "inputFileTypes": [
+          ".pdf"
+        ],
+        "outputFileTypes": [
+          ".pdf"
+        ]
+      },
+      "parent": "Annotate",
+      "stepType": "Action"
+    }
+  ]
+}

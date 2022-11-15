@@ -1,0 +1,1007 @@
+﻿/* NOTE:
+ * For New actions use: "isNew": true property
+ * For Beta actions use: "isBeta": true property
+ */
+{
+  "groups": [
+    {
+      "id": "OpenedDocs",
+      "title": "DocumentPage_OpenedDocs_NavTitle",
+      "imagePath": "",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "DocumentPage_OpenedDocs_Desc",
+      "margin": "-4,-2,-2,-7",
+      "canBeHidden": true
+    },
+    {
+      "id": "RecentPage",
+      "title": "DocumentsPage_RecentItems_NavTitle",
+      "imagePath": "",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "DocumentsPage_RecentItems_Desc",
+      "margin": "-4,-2,-2,-7"
+    },
+    {
+      "id": "FoldersPage",
+      "title": "DocumentsPage_FoldersPage_Title",
+      "imagePath": "\uE768",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "DocumentsPage_FoldersPage_Desc",
+      "margin": "-4,-2,-2,-7"
+    },
+    {
+      "id": "Browse",
+      "title": "DocumentsPage_BrowseButton_NavTitle",
+      "imagePath": "l",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "DocumentsPage_BrowseButton_Desc",
+      "margin": "-4,-2,-2,-7"
+    },
+    {
+      "id": "CreateNew",
+      "title": "DocumentsPage_CreateDocument_NavTitle",
+      "imagePath": "Ż",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "DocumentsPage_CreateDocument_Desc",
+      "margin": "-4,-2,-2,-7"
+    },
+    {
+      "id": "help",
+      "title": "DocumentsPage_Help_NavTitle",
+      "imagePath": "",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "DocumentsPage_Help_Desc",
+      "margin": "-4,-2,-2,-7"
+    },
+    {
+      "id": "separator"
+    },
+    {
+      "id": "upgradeHeader",
+      "title": "SelectPage_Paid_Subscription_NavTitle",
+      "isSubscription": true
+    },
+    {
+      "id": "convertToPdf",
+      "title": "SelectPage_ConvertToPdf_NavTitle",
+      "imageType": "Image",
+      "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-convert.png",
+      "description": "SelectPage_ConvertToPdf_Desc",
+      "isGroup": true,
+      "isSubscription": true,
+      "items": [
+        {
+          "id": "header",
+          "title": "SelectPage_Image_NavTitle"
+        },
+        {
+          "id": "bitmapToPdf",
+          "title": "SelectPage_BmpToPdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-image-to-pdf.svg",
+          "preSelectTitle": "SelectPage_BmpToPdf_PreTitle",
+          "postSelectTitle": "SelectPage_BmpToPdf_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-image-to-pdf.png",
+          "description": "SelectPage_BmpToPdf_Desc",
+          "footerText": "SelectPage_Convert_More_Files_Text",
+          "progressText": "SelectPage_Convert_Progress_Title",
+          "processingDesc": "SelectPage_Convert_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Convert_Processed_Desc",
+          "buttonText": "SelectPage_Convert_Text",
+          "selectPageType": "Default",
+          "category": "ConvertTo",
+          "actions": [
+            {
+              "actionName": "BitmapPdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "jpgToPdf",
+          "title": "SelectPage_JpgToPdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-image-to-pdf.svg",
+          "preSelectTitle": "SelectPage_JpgToPdf_PreTitle",
+          "postSelectTitle": "SelectPage_JpgToPdf_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-image-to-pdf.png",
+          "description": "SelectPage_JpgToPdf_Desc",
+          "footerText": "SelectPage_Convert_More_Files_Text",
+          "progressText": "SelectPage_Convert_Progress_Title",
+          "processingDesc": "SelectPage_Convert_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Convert_Processed_Desc",
+          "buttonText": "SelectPage_Convert_Text",
+          "selectPageType": "Default",
+          "category": "ConvertTo",
+          "actions": [
+            {
+              "actionName": "JpegPdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "pngToPdf",
+          "title": "SelectPage_PngToPdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-image-to-pdf.svg",
+          "preSelectTitle": "SelectPage_PngToPdf_PreTitle",
+          "postSelectTitle": "SelectPage_PngToPdf_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-image-to-pdf.png",
+          "description": "SelectPage_PngToPdf_Desc",
+          "footerText": "SelectPage_Convert_More_Files_Text",
+          "progressText": "SelectPage_Convert_Progress_Title",
+          "processingDesc": "SelectPage_Convert_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Convert_Processed_Desc",
+          "buttonText": "SelectPage_Convert_Text",
+          "selectPageType": "Default",
+          "category": "ConvertTo",
+          "actions": [
+            {
+              "actionName": "PngPdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "tiffToPdf",
+          "title": "SelectPage_TiffToPdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-image-to-pdf.svg",
+          "preSelectTitle": "SelectPage_TiffToPdf_PreTitle",
+          "postSelectTitle": "SelectPage_TiffToPdf_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-image-to-pdf.png",
+          "description": "SelectPage_TiffToPdf_Desc",
+          "footerText": "SelectPage_Convert_More_Files_Text",
+          "progressText": "SelectPage_Convert_Progress_Title",
+          "processingDesc": "SelectPage_Convert_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Convert_Processed_Desc",
+          "buttonText": "SelectPage_Convert_Text",
+          "selectPageType": "Default",
+          "category": "ConvertTo",
+          "actions": [
+            {
+              "actionName": "TiffPdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "header",
+          "title": "SelectPage_Office_NavTitle"
+        },
+        {
+          "id": "excelToPdf",
+          "title": "SelectPage_ExcelToPdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-excel-pdf.svg",
+          "preSelectTitle": "SelectPage_ExcelToPdf_PreTitle",
+          "postSelectTitle": "SelectPage_ExcelToPdf_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-excel-pdf.png",
+          "description": "SelectPage_ExcelToPdf_Desc",
+          "footerText": "SelectPage_Convert_More_Files_Text",
+          "progressText": "SelectPage_Convert_Progress_Title",
+          "processingDesc": "SelectPage_Convert_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Convert_Processed_Desc",
+          "buttonText": "SelectPage_Convert_Text",
+          "selectPageType": "Default",
+          "category": "ConvertTo",
+          "actions": [
+            {
+              "actionName": "ExcelPdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "powerpointToPdf",
+          "title": "SelectPage_PowerPointToPdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-ppt-pdf.svg",
+          "preSelectTitle": "SelectPage_PowerPointToPdf_PreTitle",
+          "postSelectTitle": "SelectPage_PowerPointToPdf_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-ppt-pdf.png",
+          "description": "SelectPage_PowerPointToPdf_Desc",
+          "footerText": "SelectPage_Convert_More_Files_Text",
+          "progressText": "SelectPage_Convert_Progress_Title",
+          "processingDesc": "SelectPage_Convert_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Convert_Processed_Desc",
+          "buttonText": "SelectPage_Convert_Text",
+          "selectPageType": "Default",
+          "category": "ConvertTo",
+          "actions": [
+            {
+              "actionName": "PowerPointPdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "wordToPdf",
+          "title": "SelectPage_WordToPdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-doc-to-pdf.svg",
+          "preSelectTitle": "SelectPage_WordToPdf_PreTitle",
+          "postSelectTitle": "SelectPage_WordToPdf_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-doc-to-pdf.png",
+          "description": "SelectPage_WordToPdf_Desc",
+          "footerText": "SelectPage_Convert_More_Files_Text",
+          "progressText": "SelectPage_Convert_Progress_Title",
+          "processingDesc": "SelectPage_Convert_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Convert_Processed_Desc",
+          "buttonText": "SelectPage_Convert_Text",
+          "selectPageType": "Default",
+          "category": "ConvertTo",
+          "actions": [
+            {
+              "actionName": "WordPdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "header",
+          "title": "SelectPage_Other_NavTitle"
+        },
+        {
+          "id": "textToPdf",
+          "title": "SelectPage_TextToPdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-text-pdf.svg",
+          "preSelectTitle": "SelectPage_TextToPdf_PreTitle",
+          "postSelectTitle": "SelectPage_TextToPdf_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-text-pdf.png",
+          "description": "SelectPage_TextToPdf_Desc",
+          "footerText": "SelectPage_Convert_More_Files_Text",
+          "progressText": "SelectPage_Convert_Progress_Title",
+          "processingDesc": "SelectPage_Convert_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Convert_Processed_Desc",
+          "buttonText": "SelectPage_Convert_Text",
+          "selectPageType": "Default",
+          "category": "ConvertTo",
+          "actions": [
+            {
+              "actionName": "TextPdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "xpsToPdf",
+          "title": "SelectPage_XpsToPdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-xps-pdf.svg",
+          "preSelectTitle": "SelectPage_XpsToPdf_PreTitle",
+          "postSelectTitle": "SelectPage_XpsToPdf_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-xps-pdf.png",
+          "description": "SelectPage_XpsToPdf_Desc",
+          "footerText": "SelectPage_Convert_More_Files_Text",
+          "progressText": "SelectPage_Convert_Progress_Title",
+          "processingDesc": "SelectPage_Convert_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Convert_Processed_Desc",
+          "buttonText": "SelectPage_Convert_Text",
+          "selectPageType": "Default",
+          "category": "ConvertTo",
+          "actions": [
+            {
+              "actionName": "XpsPdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "header",
+          "title": "SelectPage_Web_NavTitle"
+        },
+        {
+          "id": "HtmlPdf",
+          "title": "SelectPage_HtmlToPdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-xps-pdf.svg",
+          "preSelectTitle": "SelectPage_HtmlToPdf_PreTitle",
+          "postSelectTitle": "SelectPage_HtmlToPdf_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-xps-pdf.png",
+          "description": "SelectPage_HtmlToPdf_Desc",
+          "footerText": "SelectPage_Convert_More_Files_Text",
+          "progressText": "SelectPage_Convert_Progress_Title",
+          "processingDesc": "SelectPage_Convert_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Convert_Processed_Desc",
+          "buttonText": "SelectPage_Convert_Text",
+          "selectPageType": "Custom",
+          "category": "ConvertTo",
+          "viewModelType": "Actions.ViewModel.Select.Convert.HtmlPdfSelectViewModel, Actions",
+          "internetRequired": true,
+          "actions": [
+            {
+              "actionName": "HtmlPdfAction",
+              "profile": "Default"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "convertFromPdf",
+      "title": "SelectPage_ExportPdf_NavTitle",
+      "imageType": "Image",
+      "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-convert.png",
+      "description": "SelectPage_ExportPdf_Desc",
+      "isGroup": true,
+      "isSubscription": true,
+      "items": [
+        {
+          "id": "header",
+          "title": "SelectPage_Image_NavTitle"
+        },
+        {
+          "id": "pdfToBitmap",
+          "title": "SelectPage_PdfToBmp_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-jpg.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-jpg.png",
+          "description": "SelectPage_PdfToBmp_Desc",
+          "footerText": "SelectPage_Export_More_Files_Text",
+          "progressText": "SelectPage_Export_Progress_Title",
+          "processingDesc": "SelectPage_Export_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Export_Processed_Desc",
+          "buttonText": "SelectPage_Export_Text",
+          "selectPageType": "Default",
+          "category": "ConvertFrom",
+          "actions": [
+            {
+              "actionName": "PdfBitmapAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "pdfToJpg",
+          "title": "SelectPage_PdfToJpg_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-jpg.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-jpg.png",
+          "description": "SelectPage_PdfToJpg_Desc",
+          "footerText": "SelectPage_Export_More_Files_Text",
+          "progressText": "SelectPage_Export_Progress_Title",
+          "processingDesc": "SelectPage_Export_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Export_Processed_Desc",
+          "buttonText": "SelectPage_Export_Text",
+          "selectPageType": "Default",
+          "category": "ConvertFrom",
+          "actions": [
+            {
+              "actionName": "PdfJpegAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "pdfToPng",
+          "title": "SelectPage_PdfToPng_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-jpg.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-jpg.png",
+          "description": "SelectPage_PdfToPng_Desc",
+          "footerText": "SelectPage_Export_More_Files_Text",
+          "progressText": "SelectPage_Export_Progress_Title",
+          "processingDesc": "SelectPage_Export_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Export_Processed_Desc",
+          "buttonText": "SelectPage_Export_Text",
+          "selectPageType": "Default",
+          "category": "ConvertFrom",
+          "actions": [
+            {
+              "actionName": "PdfPngAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "pdfToTiff",
+          "title": "SelectPage_PdfToTiff_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-jpg.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-jpg.png",
+          "description": "SelectPage_PdfToTiff_Desc",
+          "footerText": "SelectPage_Export_More_Files_Text",
+          "progressText": "SelectPage_Export_Progress_Title",
+          "processingDesc": "SelectPage_Export_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Export_Processed_Desc",
+          "buttonText": "SelectPage_Export_Text",
+          "selectPageType": "Default",
+          "category": "ConvertFrom",
+          "actions": [
+            {
+              "actionName": "PdfTiffAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "header",
+          "title": "SelectPage_Office_NavTitle"
+        },
+        {
+          "id": "pdfToWord",
+          "title": "SelectPage_PdfToWord_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-doc.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-doc.png",
+          "description": "SelectPage_PdfToWord_Desc",
+          "footerText": "SelectPage_Export_More_Files_Text",
+          "progressText": "SelectPage_Export_Progress_Title",
+          "processingDesc": "SelectPage_Export_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Export_Processed_Desc",
+          "buttonText": "SelectPage_Export_Text",
+          "selectPageType": "Default",
+          "category": "ConvertFrom",
+          "internetRequired": true,
+          "actions": [
+            {
+              "actionName": "PdfWordAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "header",
+          "title": "SelectPage_Web_NavTitle"
+        },
+        {
+          "id": "pdfToHtml",
+          "title": "SelectPage_PdfToHtml_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-html.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-to-html.png",
+          "description": "SelectPage_PdfToHtml_Desc",
+          "footerText": "SelectPage_Export_More_Files_Text",
+          "progressText": "SelectPage_Export_Progress_Title",
+          "processingDesc": "SelectPage_Export_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Export_Processed_Desc",
+          "buttonText": "SelectPage_Export_Text",
+          "selectPageType": "Default",
+          "category": "ConvertFrom",
+          "internetRequired": true,
+          "actions": [
+            {
+              "actionName": "PdfHtmlAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "header",
+          "title": "SelectPage_Archive_NavTitle"
+        },
+        {
+          "id": "pdfToPdfa",
+          "title": "SelectPage_PdfToPdfa_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-pdfa.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Convert/icon-disp-pdf-pdfa.png",
+          "description": "SelectPage_PdfToPdfa_Desc",
+          "footerText": "SelectPage_Export_More_Files_Text",
+          "progressText": "SelectPage_Export_Progress_Title",
+          "processingDesc": "SelectPage_Export_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Export_Processed_Desc",
+          "buttonText": "SelectPage_Export_Text",
+          "selectPageType": "Default",
+          "category": "ConvertFrom",
+          "actions": [
+            {
+              "actionName": "PdfPdfaAction",
+              "profile": "Default"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combine",
+      "title": "SelectPage_Combine_NavTitle",
+      "imageType": "Image",
+      "imagePath": "ms-appx:///Actions/Resources/images/icon-disp-merge-pdf.png",
+      "description": "SelectPage_Combine_Desc",
+      "isGroup": true,
+      "isSubscription": true,
+      "items": [
+        {
+          "id": "merge",
+          "title": "SelectPage_MergePdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/images/icon-disp-merge-pdf.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/images/icon-disp-merge-pdf.png",
+          "description": "SelectPage_MergePdf_Desc",
+          "footerText": "SelectPage_Merge_More_Files_Text",
+          "progressText": "SelectPage_Merge_Progress_Title",
+          "processingDesc": "SelectPage_Merge_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Merge_Processed_Desc",
+          "buttonText": "SelectPage_Merge_Text",
+          "selectPageType": "Default",
+          "teachingTipTitle": "EditSelectPage_Merge_Title",
+          "teachingTipSubTitle": "EditSelectPage_Merge_SubTitle",
+          "category": "Pages",
+          "actions": [
+            {
+              "actionName": "MergePdfPageAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "split",
+          "title": "SelectPage_Split_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/images/icon-disp-split.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/images/icon-disp-split.png",
+          "description": "SelectPage_SplitPdf_Desc",
+          "footerText": "SelectPage_Split_More_Files_Text",
+          "progressText": "SelectPage_Split_Progress_Title",
+          "processingDesc": "SelectPage_Split_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Split_Processed_Desc",
+          "buttonText": "Button_Export_Text",
+          "selectPageType": "EditPages",
+          "category": "Pages",
+          "actions": [
+            {
+              "actionName": "SplitPdfPageAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "deletePage",
+          "title": "SelectPage_DeletePage_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/images/icon-disp-delete-page.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/images/icon-disp-delete-page.png",
+          "description": "SelectPage_DeletePage_Desc",
+          "footerText": "SelectPage_DeletePage_More_Files_Text",
+          "progressText": "SelectPage_DeletePage_Progress_Title",
+          "processingDesc": "SelectPage_DeletePage_Processing_Desc",
+          "processCompleteDesc": "SelectPage_DeletePage_Processed_Desc",
+          "buttonText": "Button_Delete_Text",
+          "selectPageType": "EditPages",
+          "category": "Pages",
+          "actions": [
+            {
+              "actionName": "DeletePdfPageAction",
+              "profile": "Default"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edit",
+      "title": "SelectPage_Edit_NavTitle",
+      "imageType": "Image",
+      "imagePath": "ms-appx:///Actions/Resources/images/icon-disp-edit.png",
+      "description": "SelectPage_Edit_Desc",
+      "isGroup": true,
+      "isSubscription": true,
+      "items": [
+        {
+          "id": "Crop",
+          "title": "SelectPage_CropPdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/images/icon-disp-crop.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/images/icon-disp-crop.png",
+          "description": "SelectPage_CropPdf_Desc",
+          "footerText": "SelectPage_Crop_More_Files_Text",
+          "progressText": "SelectPage_Crop_Progress_Title",
+          "processingDesc": "SelectPage_Crop_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Crop_Processed_Desc",
+          "buttonText": "SelectPage_Crop_Text",
+          "selectPageType": "Custom",
+          "category": "Pages",
+          "viewModelType": "Actions.ViewModel.Select.Crop.CropSelectViewModel, Actions",
+          "actions": [
+            {
+              "actionName": "CropPdfPageAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "compress",
+          "title": "SelectPage_CompressPdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/images/icon-disp-compress.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/images/icon-disp-compress.png",
+          "description": "SelectPage_CompressPdf_Desc",
+          "footerText": "SelectPage_Compress_More_Files_Text",
+          "progressText": "SelectPage_Compress_Progress_Title",
+          "processingDesc": "SelectPage_Compress_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Compress_Processed_Desc",
+          "buttonText": "SelectPage_Compress_Text",
+          "selectPageType": "Default",
+          "category": "Optimize",
+          "actions": [
+            {
+              "actionName": "CompressPdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "linearize",
+          "title": "SelectPage_LinearizePdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/images/icon-disp-linearize.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/images/icon-disp-linearize.png",
+          "description": "SelectPage_LinearizePdf_Desc",
+          "footerText": "SelectPage_Linearize_More_Files_Text",
+          "progressText": "SelectPage_Linearize_Progress_Title",
+          "processingDesc": "SelectPage_Linearize_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Linearize_Processed_Desc",
+          "buttonText": "SelectPage_Linearize_Text",
+          "selectPageType": "Default",
+          "category": "Optimize",
+          "actions": [
+            {
+              "actionName": "LinearizePdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "flattenAnnotate",
+          "title": "SelectPage_FlattenAnnots_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/images/icon-disp-flatten.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///pdftron.PDF.Tools/Resources/Images/icon-disp-flatten.png",
+          "description": "SelectPage_FlattenAnnots_Desc",
+          "footerText": "SelectPage_Flatten_More_Files_Text",
+          "progressText": "SelectPage_Flatten_Progress_Title",
+          "processingDesc": "SelectPage_Flatten_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Flatten_Processed_Desc",
+          "buttonText": "SelectPage_Flatten_Text",
+          "selectPageType": "Default",
+          "category": "Annotate",
+          "actions": [
+            {
+              "actionName": "FlattenAnnotationAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "removeAnnotate",
+          "title": "SelectPage_RemoveAnnots_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/images/icon-disp-remove-annot.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/images/icon-disp-remove-annot.png",
+          "description": "SelectPage_RemoveAnnots_Desc",
+          "footerText": "SelectPage_Select_More_Files_Text",
+          "progressText": "SelectPage_Remove_Progress_Title",
+          "processingDesc": "SelectPage_Edit_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Edit_Processed_Desc",
+          "buttonText": "SelectPage_Remove_Text",
+          "selectPageType": "Default",
+          "category": "Annotate",
+          "actions": [
+            {
+              "actionName": "RemoveAnnotationAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "removeLinks",
+          "title": "SelectPage_RemoveLinks_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/images/icon-disp-remove-links.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/images/icon-disp-remove-links.png",
+          "description": "SelectPage_RemoveLinks_Desc",
+          "footerText": "SelectPage_Select_More_Files_Text",
+          "progressText": "SelectPage_Remove_Progress_Title",
+          "processingDesc": "SelectPage_Edit_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Edit_Processed_Desc",
+          "buttonText": "SelectPage_RemoveLinks_Text",
+          "selectPageType": "Default",
+          "category": "Annotate",
+          "isNew": true,
+          "actions": [
+            {
+              "actionName": "RemoveLinksAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "redactPdfText",
+          "title": "SelectPage_RedactPdfText_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Redact/icon-disp-redact.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Redact/icon-disp-redact.png",
+          "description": "SelectPage_RedactPdfText_Desc",
+          "footerText": "SelectPage_Select_More_Files_Text",
+          "progressText": "SelectPage_Redact_Progress_Title",
+          "processingDesc": "SelectPage_Redact_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Redact_Processed_Desc",
+          "buttonText": "SelectPage_Redact_Text",
+          "selectPageType": "Default",
+          "category": "Redact",
+          "actions": [
+            {
+              "actionName": "RedactPdfTextAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "redactPdfImage",
+          "title": "SelectPage_RedactPdfImage_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Redact/icon-disp-redact-image.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Redact/icon-disp-redact-image.png",
+          "description": "SelectPage_RedactPdfImage_Desc",
+          "footerText": "SelectPage_Select_More_Files_Text",
+          "progressText": "SelectPage_Redact_Progress_Title",
+          "processingDesc": "SelectPage_Redact_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Redact_Processed_Desc",
+          "buttonText": "SelectPage_Redact_Text",
+          "selectPageType": "Default",
+          "category": "Redact",
+          "actions": [
+            {
+              "actionName": "RedactPdfImageAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "header",
+          "title": "SelectPage_Security_NavTitle"
+        },
+        {
+          "id": "encryptPdf",
+          "title": "SelectPage_EncryptPdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/images/icon-disp-encrypt.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///pdftron.PDF.Tools/Resources/Images/icon-disp-encrypt.png",
+          "description": "SelectPage_EncryptPdf_Desc",
+          "footerText": "SelectPage_Encrypt_More_Files_Text",
+          "progressText": "SelectPage_Encypt_Progress_Title",
+          "processingDesc": "SelectPage_Encrypt_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Encrypt_Processed_Desc",
+          "buttonText": "SelectPage_Encrypt_Text",
+          "selectPageType": "Default",
+          "category": "Secure",
+          "actions": [
+            {
+              "actionName": "SecurePdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "decryptPdf",
+          "title": "SelectPage_DecryptPdf_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/images/icon-disp-decrypt.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/images/icon-disp-decrypt.png",
+          "description": "SelectPage_DecryptPdf_Desc",
+          "footerText": "SelectPage_Decrypt_More_Files_Text",
+          "progressText": "SelectPage_Decrypt_Progress_Title",
+          "processingDesc": "SelectPage_Decrypt_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Decrypt_Processed_Desc",
+          "buttonText": "SelectPage_Decrypt_Text",
+          "selectPageType": "Default",
+          "category": "Secure",
+          "actions": [
+            {
+              "actionName": "UnlockPdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "header",
+          "title": "SelectPage_Stamp_NavTitle"
+        },
+        {
+          "id": "stampImage",
+          "title": "SelectPage_StampImage_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Stamp/icon-disp-stamp-image.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Stamp/icon-disp-stamp-image.png",
+          "description": "SelectPage_StampImage_Desc",
+          "footerText": "SelectPage_Stamp_More_Files_Text",
+          "progressText": "SelectPage_Stamp_Progress_Title",
+          "processingDesc": "SelectPage_Stamp_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Stamp_Processed_Desc",
+          "buttonText": "SelectPage_Stamp_Text",
+          "selectPageType": "Default",
+          "category": "Stamp",
+          "actions": [
+            {
+              "actionName": "ImageStampPdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "stampFile",
+          "title": "SelectPage_StampFile_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Stamp/icon-disp-stamp-page.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Stamp/icon-disp-stamp-page.png",
+          "description": "SelectPage_StampFile_Desc",
+          "footerText": "SelectPage_Stamp_More_Files_Text",
+          "progressText": "SelectPage_Stamp_Progress_Title",
+          "processingDesc": "SelectPage_Stamp_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Stamp_Processed_Desc",
+          "buttonText": "SelectPage_Stamp_Text",
+          "selectPageType": "Default",
+          "category": "Stamp",
+          "actions": [
+            {
+              "actionName": "FileStampPdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "stampText",
+          "title": "SelectPage_StampText_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Stamp/icon-disp-stamp-text.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Stamp/icon-disp-stamp-text.png",
+          "description": "SelectPage_StampText_Desc",
+          "footerText": "SelectPage_Stamp_More_Files_Text",
+          "progressText": "SelectPage_Stamp_Progress_Title",
+          "processingDesc": "SelectPage_Stamp_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Stamp_Processed_Desc",
+          "buttonText": "SelectPage_Stamp_Text",
+          "selectPageType": "Default",
+          "category": "Stamp",
+          "actions": [
+            {
+              "actionName": "TextStampPdfAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "batesStamp",
+          "title": "SelectPage_BatesStamp_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Stamp/icon-disp-stamp-text.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Stamp/icon-disp-stamp-text.png",
+          "description": "SelectPage_BatesStamp_Desc",
+          "footerText": "SelectPage_Stamp_More_Files_Text",
+          "progressText": "SelectPage_Stamp_Progress_Title",
+          "processingDesc": "SelectPage_Stamp_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Stamp_Processed_Desc",
+          "buttonText": "SelectPage_Stamp_Text",
+          "selectPageType": "Default",
+          "category": "Stamp",
+          "actions": [
+            {
+              "actionName": "BatesStampPdfAction",
+              "profile": "Default"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extract",
+      "title": "SelectPage_Extract_NavTitle",
+      "imageType": "Image",
+      "imagePath": "ms-appx:///Actions/Resources/Images/Extract/icon-disp-extract.png",
+      "fontFamily": "Segoe MDL2 Assets",
+      "description": "SelectPage_Extract_Desc",
+      "isGroup": true,
+      "isSubscription": true,
+      "items": [
+        {
+          "id": "extractImage",
+          "title": "SelectPage_ExtractImage_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Extract/icon-disp-extract-image.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Extract/icon-disp-extract-image.png",
+          "description": "SelectPage_ExtractImage_Desc",
+          "footerText": "SelectPage_Extract_More_Files_Text",
+          "progressText": "SelectPage_Extract_Progress_Title",
+          "processingDesc": "SelectPage_Extract_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Extract_Processed_Desc",
+          "buttonText": "SelectPage_Extract_Text",
+          "selectPageType": "Default",
+          "category": "Extract",
+          "actions": [
+            {
+              "actionName": "ExtractImageAction",
+              "profile": "Default"
+            }
+          ]
+        },
+        {
+          "id": "extractText",
+          "title": "SelectPage_ExtractText_NavTitle",
+          "titleImagePath": "ms-appx:///Actions/Resources/Images/Extract/icon-disp-extract-text.svg",
+          "preSelectTitle": "SelectPage_ConvertPdfTo_PreTitle",
+          "postSelectTitle": "SelectPage_ConvertPdfTo_PostTitle",
+          "imageType": "Image",
+          "imagePath": "ms-appx:///Actions/Resources/Images/Extract/icon-disp-extract-text.png",
+          "description": "SelectPage_ExtractText_Desc",
+          "footerText": "SelectPage_Extract_More_Files_Text",
+          "progressText": "SelectPage_Extract_Progress_Title",
+          "processingDesc": "SelectPage_Extract_Processing_Desc",
+          "processCompleteDesc": "SelectPage_Extract_Processed_Desc",
+          "buttonText": "SelectPage_Extract_Text",
+          "selectPageType": "Default",
+          "category": "Extract",
+          "actions": [
+            {
+              "actionName": "ExtractTextAction",
+              "profile": "Default"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footers": [
+    {
+      "id": "Settings",
+      "title": "Settings_Options_NavTitle",
+      "imagePath": "",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "Settings_Options_Desc",
+      "margin": "-4,-2,-2,-7"
+    }
+  ]
+}

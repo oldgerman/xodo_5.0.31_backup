@@ -1,0 +1,23 @@
+﻿{
+  "id": "4c8de760-ea88-4701-aec7-595c6fe4760e",
+  "profiles": [
+    {
+      "profile": "Default",
+      "description": "Default profile used in Basic Task.",
+      "profileType": "Global",
+      "default": true,
+      "applyBGColorToPaper": true,
+      "autoAdjustPaperSize": true,
+      "horizontalStitching": true,
+      "marginBottom": 0.5,
+      "marginLeft": 0.5,
+      "marginRight": 0.5,
+      "marginTop": 0.5,
+      "paperHeight": 11,
+      "paperWidth": 8.5,
+      "paperOrientation": "Portrait",
+      "paperSize": "LETTER",
+      "zoom": 100
+    }
+  ]
+}

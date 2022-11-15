@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24"
+	 enable-background="new 0 0 24 24" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="20" width="19.9996" x="2.0004" y="2"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="icons-_x2F_-24px-_x2F_-pdfonline-_x2F_-html-to-pdf">
+	<path id="Fill-1-Copy" fill-rule="evenodd" clip-rule="evenodd" fill="#2651A1" d="M21.4,12c0.4,0.4,0.6,0.9,0.6,1.4V20
+		c0,1.1-0.9,2-2,2h-7c-1.1,0-2-0.9-2-2v-9c0-1.1,0.9-2,2-2h4.6c0.5,0,1,0.2,1.4,0.6L21.4,12z"/>
+	<path id="Fill-3" fill-rule="evenodd" clip-rule="evenodd" fill="#09BDF8" d="M9.9844,2.606l2.435,2.451
+		c0.374,0.377,0.583,0.886,0.581,1.416l-0.022,6.534c-0.004,1.104-0.903,1.997-2.007,1.993l-6.978-0.023
+		c-1.105-0.004-1.997-0.903-1.993-2.007l0.03-8.977C2.0344,2.889,2.9324,1.996,4.0374,2l4.534,0.016
+		C9.1024,2.017,9.6104,2.23,9.9844,2.606"/>
+	<path id="Fill-8" fill-rule="evenodd" clip-rule="evenodd" fill="#09BDF8" d="M4.5,17v0.2c0,0.6,0.5,1.2,1.1,1.2h0.1H7V17l2.5,2.2
+		L7,21.5V20H5.5C4.1,20,3,18.9,3,17.5V17H4.5z"/>
+	<path id="Combined-Shape" fill="none" d="M20,6V5.75c0-0.6472-0.4919-1.1795-1.1222-1.2435L18.75,4.5H18v1l-2-1.75L18,2l0.001,1H19
+		c1.3807,0,2.5,1.1193,2.5,2.5V6H20z"/>
+	<path id="_x3C__x3E_" fill="#FFFFFF" d="M6.9167,13v-1.053l-1.8745-0.9541l1.8745-0.9399V9L4,10.5265v0.947L6.9167,13z M8.0833,13
+		L11,11.4806v-0.947L8.0833,9v1.053l1.8745,0.9541L8.0833,11.947V13z"/>
+</g>
+</svg>

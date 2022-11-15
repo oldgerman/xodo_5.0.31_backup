@@ -1,0 +1,14 @@
+﻿{
+  "slides": [
+    {
+      "imagePath": "/Assets/Monetization/splash_screen.svg",
+      "title": "Upgrade to the Xodo Pro\nA collection of great features",
+      "subTitle": ""
+    }
+    //{
+    //  "imagePath": "/Assets/Monetization/export_to_word.svg",
+    //  "title": "Export to Word",
+    //  "subTitle": "Convert any PDF document to a Word file"
+    //}
+  ]
+}

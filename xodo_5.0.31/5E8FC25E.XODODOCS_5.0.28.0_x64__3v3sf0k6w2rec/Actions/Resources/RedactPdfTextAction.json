@@ -1,0 +1,13 @@
+﻿{
+  "id": "e1129fc4-a9d6-44d6-8a2f-e197d210650f",
+  "profiles": [
+    {
+      "literalTextList": [],
+      "overlayColor": "#000000",
+      "profile": "Default",
+      "description": "Default Redact Text profile",
+      "profileType": "Global",
+      "default": true
+    }
+  ]
+}

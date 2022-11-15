@@ -1,0 +1,173 @@
+﻿{
+  "connectorList": [
+    {
+      "enabled": 0,
+      "name": "OutputAmazonS3Connector",
+      "alias": "Amazon S3",
+      "id": "ba15126a-3f29-43be-9d4d-0e84c1387576",
+      "log": {
+        "name": "OutputAmazonS3Connector.log",
+        "clearOnStartup": true,
+        "checkInterval": 15,
+        "debug": true,
+        "maxFileSize": 5
+      }
+    },
+    {
+      "enabled": 0,
+      "name": "OutputAzureBlobConnector",
+      "alias": "Azure Blob Service",
+      "id": "c2efe5f6-9702-4fb3-b58a-252bde92315a",
+      "log": {
+        "name": "OutputAzureBlobConnector.log",
+        "clearOnStartup": true,
+        "checkInterval": 15,
+        "debug": true,
+        "maxFileSize": 5
+      }
+    },
+    {
+      "enabled": 0,
+      "name": "OutputAzureFileConnector",
+      "alias": "Azure File Service",
+      "id": "666a97e5-8672-47cd-b2bc-87cab425dc2b",
+      "log": {
+        "name": "OutputAzureFileConnector.log",
+        "clearOnStartup": true,
+        "checkInterval": 15,
+        "debug": true,
+        "maxFileSize": 5
+      }
+    },
+    {
+      "enabled": 0,
+      "name": "OutputGoogleCloudStorageConnector",
+      "alias": "Google Cloud Storage",
+      "id": "55aefd1c-6789-4531-a229-9b617ae0062e",
+      "log": {
+        "name": "OutputGoogleCloudStorageConnector.log",
+        "clearOnStartup": true,
+        "checkInterval": 15,
+        "debug": true,
+        "maxFileSize": 5
+      }
+    },
+    {
+      "enabled": 0,
+      "name": "OutputSharePointConnector",
+      "alias": "SharePoint Online",
+      "id": "caf92571-66a4-40ec-a9ec-a6e8831c2b9e",
+      "log": {
+        "name": "OutputSharePointConnector.log",
+        "clearOnStartup": true,
+        "checkInterval": 15,
+        "debug": true,
+        "maxFileSize": 5
+      }
+    },
+    {
+      "enabled": 0,
+      "name": "OutputSmtpConnector",
+      "alias": "SMTP Server",
+      "id": "f3f54ad2-062f-4924-9b4e-1e81c20c7190",
+      "log": {
+        "name": "OutputSmtpConnector.log",
+        "clearOnStartup": true,
+        "checkInterval": 15,
+        "debug": true,
+        "maxFileSize": 5
+      }
+    },
+    {
+      "enabled": 0,
+      "name": "OutputBoxConnector",
+      "alias": "Box",
+      "id": "80ea69fc-d49c-4c35-b581-34ffe35aca09",
+      "log": {
+        "name": "OutputBoxConnector.log",
+        "clearOnStartup": true,
+        "checkInterval": 15,
+        "debug": true,
+        "maxFileSize": 5
+      }
+    },
+    {
+      "enabled": 0,
+      "name": "OutputDropboxConnector",
+      "alias": "Dropbox",
+      "id": "d80156d6-0bfc-4c03-aa90-4c063d6b8aa8",
+      "log": {
+        "name": "OutputDropboxConnector.log",
+        "clearOnStartup": true,
+        "checkInterval": 15,
+        "debug": true,
+        "maxFileSize": 5
+      }
+    },
+    {
+      "enabled": 0,
+      "name": "OutputGoogleDriveConnector",
+      "alias": "Google Drive",
+      "id": "b75144d7-109b-4136-905c-92e96286432f",
+      "log": {
+        "name": "OutputGoogleDriveConnector.log",
+        "clearOnStartup": true,
+        "checkInterval": 15,
+        "debug": true,
+        "maxFileSize": 5
+      }
+    },
+    {
+      "enabled": 0,
+      "name": "OutputOneDriveConnector",
+      "alias": "OneDrive",
+      "id": "24538f56-31af-4b45-bc08-97d7635ecde1",
+      "log": {
+        "name": "OutputOneDriveConnector.log",
+        "clearOnStartup": true,
+        "checkInterval": 15,
+        "debug": true,
+        "maxFileSize": 5
+      }
+    },
+    {
+      "enabled": 0,
+      "name": "OutputFtpConnector",
+      "alias": "FTP Server",
+      "id": "f49d6c3c-a328-4298-9df2-9452909190d8",
+      "log": {
+        "name": "OutputFtpConnector.log",
+        "clearOnStartup": true,
+        "checkInterval": 15,
+        "debug": true,
+        "maxFileSize": 5
+      }
+    },
+    {
+      "enabled": 0,
+      "name": "OutputSqlServerConnector",
+      "alias": "SQL Server",
+      "id": "327fbca4-e5f9-481a-a976-140073b8f9e0",
+      "log": {
+        "name": "OutputSqlServerConnector.log",
+        "clearOnStartup": true,
+        "checkInterval": 15,
+        "debug": true,
+        "maxFileSize": 5
+      }
+    },
+    {
+      "enabled": 1,
+      "name": "OutputFileSystemConnector",
+      "alias": "File System",
+      "id": "f6b183d1-0c25-4716-8b44-61ef598ef30e",
+      "log": {
+        "name": "OutputFileSystemConnector.log",
+        "clearOnStartup": true,
+        "checkInterval": 15,
+        "debug": true,
+        "maxFileSize": 5
+      }
+    }
+  ]
+}

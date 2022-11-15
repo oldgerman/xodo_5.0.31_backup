@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="5E8FC25E.XODODOCS" Publisher="CN=728D3E49-73AE-4BBD-BC7C-5885A138F109" Version="5.0.28.0"/>
+	<Packages>
+		<Package Type="application" Version="5.0.28.0" Architecture="x86" FileName="Xodo_5.0.28.0_x86_ReleaseForStore Monet.msix" Offset="108114756" Size="33183295">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="FR-FR"/>
+				<Resource Language="PT-BR"/>
+				<Resource Language="ZH-CN"/>
+				<Resource Language="JA-JP"/>
+				<Resource Language="KO-KR"/>
+				<Resource Language="DE-DE"/>
+				<Resource Language="ES-ES"/>
+				<Resource Language="IT-IT"/>
+				<Resource Scale="100"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="5.0.28.0" Architecture="x64" FileName="Xodo_5.0.28.0_x64_ReleaseForStore Monet.msix" Offset="71334859" Size="36779797">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="FR-FR"/>
+				<Resource Language="PT-BR"/>
+				<Resource Language="ZH-CN"/>
+				<Resource Language="JA-JP"/>
+				<Resource Language="KO-KR"/>
+				<Resource Language="DE-DE"/>
+				<Resource Language="ES-ES"/>
+				<Resource Language="IT-IT"/>
+				<Resource Scale="100"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="5.0.28.0" Architecture="arm" FileName="Xodo_5.0.28.0_ARM_ReleaseForStore Monet.msix" Offset="34697787" Size="34663645">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="FR-FR"/>
+				<Resource Language="PT-BR"/>
+				<Resource Language="ZH-CN"/>
+				<Resource Language="JA-JP"/>
+				<Resource Language="KO-KR"/>
+				<Resource Language="DE-DE"/>
+				<Resource Language="ES-ES"/>
+				<Resource Language="IT-IT"/>
+				<Resource Scale="100"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="5.0.28.0" Architecture="arm64" FileName="Xodo_5.0.28.0_ARM64_ReleaseForStore Monet.msix" Offset="78" Size="34697609">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="FR-FR"/>
+				<Resource Language="PT-BR"/>
+				<Resource Language="ZH-CN"/>
+				<Resource Language="JA-JP"/>
+				<Resource Language="KO-KR"/>
+				<Resource Language="DE-DE"/>
+				<Resource Language="ES-ES"/>
+				<Resource Language="IT-IT"/>
+				<Resource Scale="100"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="5.0.28.0" ResourceId="split.scale-100" FileName="Xodo_5.0.28.0_scale-100.msix" Offset="69361514" Size="97038">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="5.0.28.0" ResourceId="split.scale-125" FileName="Xodo_5.0.28.0_scale-125.msix" Offset="69458634" Size="99872">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="5.0.28.0" ResourceId="split.scale-150" FileName="Xodo_5.0.28.0_scale-150.msix" Offset="69558588" Size="112315">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="5.0.28.0" ResourceId="split.scale-200" FileName="Xodo_5.0.28.0_scale-200.msix" Offset="69670985" Size="364019">
+			<Resources>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="5.0.28.0" ResourceId="split.scale-400" FileName="Xodo_5.0.28.0_scale-400.msix" Offset="70035086" Size="1299673">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

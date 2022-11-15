@@ -1,0 +1,13 @@
+﻿{
+  "id": "53e16570-80bc-4b73-b253-81a0c37b72d0",
+  "profiles": [
+    {
+      "annotationTypes": 536870912,
+      "pageSubset": "All",
+      "profile": "Default",
+      "description": "Default profile used in Basic Task.",
+      "profileType": "Global",
+      "default": true
+    }
+  ]
+}

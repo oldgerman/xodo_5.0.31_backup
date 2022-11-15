@@ -1,0 +1,12 @@
+﻿{
+  "id": "aa127f95-9b52-4cf6-b6af-55403109b360",
+  "profiles": [
+    {
+      "overlayColor": "#000000",
+      "profile": "Default",
+      "description": "Default profile used in Basic Task.",
+      "profileType": "Global",
+      "default": true
+    }
+  ]
+}

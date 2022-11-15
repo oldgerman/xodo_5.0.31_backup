@@ -1,0 +1,55 @@
+﻿{
+  "groups": [
+    {
+      "id": "Options",
+      "title": "Settings_General_NavTitle",
+      "imagePath": "\uE608",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "Settings_General_Desc",
+      "margin": "-4,-2,-2,-7"
+    },
+    {
+      "id": "Viewer",
+      "title": "Settings_Viewer_NavTitle",
+      "imagePath": "\uE541",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "Settings_Viewer_Desc",
+      "margin": "-4,-2,-2,-7"
+    },
+    {
+      "id": "Annotation",
+      "title": "Settings_Annotation_NavTitle",
+      "imagePath": "\uE035",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "Settings_Annotation_Desc",
+      "margin": "-4,-2,-2,-7"
+    },
+    {
+      "id": "KeyboardShortcuts",
+      "title": "Settings_KeyboardShortcuts_NavTitle",
+      "imagePath": "\uE835",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "Settings_KeyboardShortcuts_Desc",
+      "margin": "-4,-2,-2,-7"
+    },
+    {
+      "id": "separator"
+    },
+    {
+      "id": "About",
+      "title": "Settings_About_NavTitle",
+      "imagePath": "\uE674",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "Settings_About_Desc",
+      "margin": "-4,-2,-2,-7"
+    },
+    {
+      "id": "Feedback",
+      "title": "Settings_Send_Feedback_NavTitle",
+      "imagePath": "\uE779",
+      "fontFamily": "ms-appx:///pdftron.PDF.Tools/Resources/glyph-icon.ttf#PDFTron Glyphicons",
+      "description": "Settings_Send_Feedback_Desc",
+      "margin": "-4,-2,-2,-7"
+    }
+  ]
+}

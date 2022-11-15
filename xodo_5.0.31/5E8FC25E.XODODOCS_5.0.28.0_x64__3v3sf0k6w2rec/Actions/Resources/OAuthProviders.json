@@ -1,0 +1,59 @@
+﻿{
+  "providers": [
+    {
+      "clientId": "bc19c025c8d8479ebe305075317df10c",
+      "clientSecret": "E28851514221B802C522E8FD4600BAF306C244CF242211F163D9AD98072C657D",
+      "tokenUrl": "https://www.easypdfcloud.com/oauth2/token",
+      "title": "easy PDF Cloud",
+      "name": "EasyPdfCloud"
+    },
+    {
+      "clientId": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK19cSnT3k0OsHAniy46KogQAAAACAAAAAAADZgAAwAAAABAAAAD5n9cs4XyUs2jpjizk0rdOAAAAAASAAACgAAAAEAAAAMlTCfRgPN03xwxZOI5AEFtIAAAAblfYf0gIRCLu3poh80DvyiS+IXKP4K/sDKUbuHH7kvpD6ToJrJo1SkjkBqBlVdCtQkSOuvc75UzM3eOAeKOyIT/gScicHlGCFAAAAGxywvLPvypmp2d7Lo9Pi5+qQ1YB",
+      "redirectUri": "http://localhost",
+      "clientSecret": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK19cSnT3k0OsHAniy46KogQAAAACAAAAAAADZgAAwAAAABAAAAB9jN6Im8wceqANyW5MVwrrAAAAAASAAACgAAAAEAAAAIHBo1rNOtYGwKnVRF/MpTFIAAAAtaoRSBTzHIYigTmsmSRgtCTuo2CrVs+ja7S8xu+3R0VOcDw7nrcuk3/SJd7g9qSD3e5t9Xs6r1o9+2j/7b6LYTbGZpeUMD2xFAAAAEHkx9+uWlKtHtybwKrYzFznNczC",
+      "authorizeUrl": "https://www.box.com/api/oauth2/authorize",
+      "tokenUrl": "https://www.box.com/api/oauth2/token",
+      "refreshTokenUrl": "https://api.box.com/oauth2/token",
+      "revokeUrl": "https://api.box.com/oauth2/revoke",
+      "currentUserUrl": "https://api.box.com/2.0/users/me",
+      "title": "Box.com Authorization",
+      "name": "Box"
+    },
+    {
+      "clientId": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK19cSnT3k0OsHAniy46KogQAAAACAAAAAAADZgAAwAAAABAAAADYywmm8324lfkTpyZdh474AAAAAASAAACgAAAAEAAAAPYYEfnlSsYiE6Lck6kfoqAgAAAAMxVei71BpSOJZw+hFx1s9jMZ9+2qUKU0wovS6uBzsaEUAAAAflUfnymtB8P1B9+6+0hjhWp6mQI=",
+      "redirectUri": "http://localhost",
+      "clientSecret": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK19cSnT3k0OsHAniy46KogQAAAACAAAAAAADZgAAwAAAABAAAADpPnb0zmZ4ZOVpXL3M1ua0AAAAAASAAACgAAAAEAAAAPFlYP6h62ADTbJoVDu4q/EgAAAASwlUk9BGDmqeqtHzapwTSbP0fO1eB++gW8g9v6QptU0UAAAAVzLpHFk3hnAu9S8tNbxSA/g8jFQ=",
+      "authorizeUrl": "https://www.dropbox.com/oauth2/authorize",
+      "tokenUrl": "https://api.dropboxapi.com/oauth2/token",
+      "refreshTokenUrl": "https://api.dropboxapi.com/oauth2/token",
+      "revokeUrl": "https://api.dropboxapi.com/2/auth/token/revoke",
+      "currentUserUrl": "https://api.dropboxapi.com/2/users/get_current_account",
+      "title": "Dropbox Authorization",
+      "name": "Dropbox"
+    },
+    {
+      "clientId": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK19cSnT3k0OsHAniy46KogQAAAACAAAAAAADZgAAwAAAABAAAABHxQeov5TO8a5A8mCKSfolAAAAAASAAACgAAAAEAAAAFVVNDEl7zE/gmJc4QYlWz6YAAAAb0jQqeY2JfLP638hV/T7pYdtNAWRuCWFddiAfDqMmTr926Od4IhsuMVAzPfE2xiVZKjj2s7GB9QjZ0YEObgfqKARjgxSowi/DLRnNpfsxAmXdsH1HD7Jgk/CORKH85ILRHeSeyk5L3AJTRnR9Ng24RK42yPdUfDHE/RgSuGdtKLJv4/Y9IcG/orKofgMbJqtJmOwU6wnLbQUAAAAtSxwfni9rYChp4QaykgW5X7Xwzo=",
+      "redirectUri": "http://localhost",
+      "clientSecret": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK19cSnT3k0OsHAniy46KogQAAAACAAAAAAADZgAAwAAAABAAAAB3ugXQIrpIQTOId971DVPXAAAAAASAAACgAAAAEAAAABI7xRJeAW5J5MB8qeF8q7o4AAAA7T+xDVt4JXkoaGvNPJC90X0D7/2wsjffREEl5KUDdj2qAopHhJalevTMdeXD+UPHjccs+tH5ezEUAAAAjxtfeyN1qX//EckYvLPXDoE3L3Q=",
+      "authorizeUrl": "https://accounts.google.com/o/oauth2/v2/auth",
+      "tokenUrl": "https://oauth2.googleapis.com/token",
+      "refreshTokenUrl": "https://oauth2.googleapis.com/token",
+      "revokeUrl": "https://oauth2.googleapis.com/revoke",
+      "currentUserUrl": "https://www.googleapis.com/drive/v3/about",
+      "title": "Google Drive Authorization",
+      "name": "GoogleDrive"
+    },
+    {
+      "clientId": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK19cSnT3k0OsHAniy46KogQAAAACAAAAAAADZgAAwAAAABAAAAAMxEggauiZC16wLfXBAhASAAAAAASAAACgAAAAEAAAAClb4Kz4L9ZsREVOCWZnGf5QAAAAhAndPt5EaPNMq86eB8xNnIBz9hcAh95slFJpfR8iOJy3PCaXs1PPfhE5cxI+iIzKhY/EArFRKvHkwqtQ89AX94HKKVDt9IQWeoN1gy2FICYUAAAAyFJmI8SAsRczXc/ylMUCxzNuLiM=",
+      "redirectUri": "http://localhost",
+      "clientSecret": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK19cSnT3k0OsHAniy46KogQAAAACAAAAAAADZgAAwAAAABAAAAAKv/HhhEv5yBTn3u2/c46pAAAAAASAAACgAAAAEAAAAA4yyoyEfWrTYOU9C0ZrxB1IAAAAwo6nKPfsVewbL/TiIimubL1T6LNHv8FeHvku+0G+UHLfbcgkbNUOUWc8Es2UyszmjG09prR1hGtdPK9sVpDugdWZ5bAzQSdVFAAAAPnlhMYclkK8rfN/v/0U/zgVFfB7",
+      "authorizeUrl": "https://login.microsoftonline.com/common/oauth2/v2.0/authorize",
+      "tokenUrl": "https://login.microsoftonline.com/common/oauth2/v2.0/token",
+      "refreshTokenUrl": "https://login.microsoftonline.com/common/oauth2/v2.0/token",
+      "revokeUrl": "https://login.microsoftonline.com/common/oauth2/v2.0/logout",
+      "currentUserUrl": "https://graph.microsoft.com/v1.0/me",
+      "title": "OneDrive Authorization",
+      "name": "OneDrive"
+    }
+  ]
+}

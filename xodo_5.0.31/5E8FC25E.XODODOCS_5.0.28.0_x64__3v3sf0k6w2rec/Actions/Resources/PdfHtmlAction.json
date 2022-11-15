@@ -1,0 +1,18 @@
+﻿{
+  "id": "4c8de760-ea88-4701-aec7-595c6fe4760e",
+  "profiles": [
+    {
+      "connectHyphens": false,
+      "embedContents": true,
+      "htmlTitle": "",
+      "imageFormat": "Jpeg",
+      "imageResolution": 96,
+      "jpegQuality": 75,
+      "ocrType": "TextImage",
+      "profile": "Default",
+      "description": "Default profile used in Basic Task.",
+      "profileType": "Global",
+      "default": true
+    }
+  ]
+}

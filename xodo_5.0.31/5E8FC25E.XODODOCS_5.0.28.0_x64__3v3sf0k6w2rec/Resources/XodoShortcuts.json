@@ -1,0 +1,247 @@
+[{
+		"description": "KeyboardShortcut_Navigating_Header",
+		"hotkey": "",
+		"isHeader": true
+	},
+	{
+		"description": "KeyboardShortcut_Navigating_Header_Description",
+		"hotkey": "",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_NextTab_Description",
+		"hotkey": "Ctrl+Tab",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_PreviousTab_Description",
+		"hotkey": "Ctrl+Shift+Tab",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_ScrollUp_Description",
+		"hotkey": "Up Arrow",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_ScrollDown_Description",
+		"hotkey": "Down Arrow",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_ScrollPageUp_Description",
+		"hotkey": "Page Up",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_ScrollPageDown_Description",
+		"hotkey": "Page Down, SpaceBar",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_FirstPage_Description",
+		"hotkey": "Home",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_LastPage_Description",
+		"hotkey": "End",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_ZoomIn_Description",
+		"hotkey": "Ctrl+(+), Ctrl+Mouse Wheel",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_ZoomOut_Description",
+		"hotkey": "Ctrl+(-), Ctrl+Mouse Wheel",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_SelectTabNumber_Description",
+		"hotkey": "Ctrl+(1-9)",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_CloseCurrentTab_Description",
+		"hotkey": "Ctrl+W",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_CloseCurrentMenuDialog_Description",
+		"hotkey": "Escape",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Annotating_Header",
+		"hotkey": "",
+		"isHeader": true
+	},
+	{
+		"description": "KeyboardShortcut_Annotating_Header_Description",
+		"hotkey": "",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Pan_Description",
+		"hotkey": "P, Escape",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Sticky_Description",
+		"hotkey": "C",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Highlight_Description",
+		"hotkey": "H",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Underline_Description",
+		"hotkey": "U",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Squiggly_Description",
+		"hotkey": "G",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Stamper_Description",
+		"hotkey": "K",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Signature_Description",
+		"hotkey": "S",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Ink_Description",
+		"hotkey": "I",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Eraser_Description",
+		"hotkey": "E",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Marker_Description",
+		"hotkey": "M",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_TextBox_Description",
+		"hotkey": "T",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Square_Description",
+		"hotkey": "R",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Oval_Description",
+		"hotkey": "O",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Line_Description",
+		"hotkey": "L",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Arrow_Description",
+		"hotkey": "A",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Multiselect_Description",
+		"hotkey": "Ctrl+M",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Lasso_Description",
+		"hotkey": "Ctrl+L",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Copy_Description",
+		"hotkey": "Ctrl+C",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Paste_Description",
+		"hotkey": "Ctrl+V",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Cut_Description",
+		"hotkey": "Ctrl+X",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Undo_Description",
+		"hotkey": "Ctrl+Z",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Redo_Description",
+		"hotkey": "Ctrl+Y",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Other_Header",
+		"hotkey": "",
+		"isHeader": true
+	},
+	{
+		"description": "KeyboardShortcut_Other_Header_Description",
+		"hotkey": "",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Save_Description",
+		"hotkey": "Ctrl+S",
+		"isHeader": false
+
+	},
+	{
+		"description": "KeyboardShortcut_FullScreenOn_Description",
+		"hotkey": "F11",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_FullScreenOff_Description",
+		"hotkey": "Escape",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Find_Description",
+		"hotkey": "Ctrl+F",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_NextSearch_Description",
+		"hotkey": "Enter, F3, Right Arrow",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_PreviousSearch_Description",
+		"hotkey": "Shift+F3, Left Arrow",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Print_Description",
+		"hotkey": "Ctrl+P",
+		"isHeader": false
+	},
+	{
+		"description": "KeyboardShortcut_Speech_Description",
+		"hotkey": "Ctrl+R",
+		"isHeader": false
+	}
+]

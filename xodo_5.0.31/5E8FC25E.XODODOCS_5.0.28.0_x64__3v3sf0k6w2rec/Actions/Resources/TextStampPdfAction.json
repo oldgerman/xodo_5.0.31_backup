@@ -1,0 +1,32 @@
+﻿{
+  "id": "d4055ca3-719c-43d0-b58f-274c1e413372",
+  "profiles": [
+    {
+      "fontSize": 20.0,
+      "fontFamily": "Arial",
+      "fontStyle": "Regular",
+      "fontColor": "#FF0000",
+      "text": "%Filename% - %Date% Page %PageNumber% %Subject%",
+      "sizeType": "FontSize",
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "width": 200.0,
+      "height": 200.0,
+      "verticalAlignment": "Top",
+      "opacity": 0.5,
+      "horizontalPosition": 10.0,
+      "verticalPosition": 10.0,
+      "rotation": 0.0,
+      "print": true,
+      "screen": true,
+      "pageSubset": "All",
+      "previewPaperSize": "e_letter",
+      "customPreviewPaperSizeWidth": 612.0,
+      "customPreviewPaperSizeHeight": 792.0,
+      "profile": "Default",
+      "description": "Default profile used in Basic Task.",
+      "profileType": "Global",
+      "default": true
+    }
+  ]
+}
